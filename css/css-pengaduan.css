@@ -3,3 +3,20 @@ a.navbar-brand img.d-inline-block.align-top {
     filter: invert(1);
     width: 120px;
 }
+
+/* Untuk Button Lapor sekarang dan alur */
+.masthead a.me-lg-3.mb-4.mb-lg-0:first-child {
+    padding: 10px 20px;
+    background-color: #e52473;
+    border-radius: 30px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.masthead a.me-lg-3.mb-4.mb-lg-0:last-child {
+    padding: 10px 20px;
+    background-color: #9f1ae2;
+    border-radius: 30px;
+    color: #fff;
+    text-decoration: none;
+}
