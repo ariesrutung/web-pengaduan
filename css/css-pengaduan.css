@@ -187,6 +187,13 @@ input#form6Example9 {
     background-color: transparent;
 }
 
+input#form6Example10 {
+    position: relative;
+    background-color: orange;
+    width: 40px;
+    height: 25px;
+}
+
 /* Bootstrap Modal */
 .modal-dialog {
     max-width: 90%;
