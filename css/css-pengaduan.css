@@ -1,5 +1,5 @@
 /* CSS Untuk Logo Website Header */
-a.navbar-brand img {
+a.navbar-brand img.d-inline-block.align-top {
     filter: invert(1);
     width: 120px;
 }
