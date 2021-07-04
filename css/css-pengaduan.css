@@ -4,6 +4,24 @@ a.navbar-brand img.d-inline-block.align-top {
     width: 120px;
 }
 
+/* Icon Menu di topbar */
+#mainNav .navbar-toggler {
+    font-size: 0.875rem;
+    padding: 10px;
+    border: 0;
+    font-weight: bold;
+}
+
+i.bi.bi-list {
+    font-size: 30px !important;
+}
+
+/* Tombol Masuk */
+button.btn.btn-primary.rounded-pill.px-3.mb-2.mb-lg-0 {
+    background-color: orange;
+    border: 0;
+}
+
 /* Untuk Button Lapor sekarang dan alur */
 .masthead a.me-lg-3.mb-4.mb-lg-0:first-child {
     padding: 10px 20px;
@@ -15,8 +33,92 @@ a.navbar-brand img.d-inline-block.align-top {
 
 .masthead a.me-lg-3.mb-4.mb-lg-0:last-child {
     padding: 10px 20px;
-    background-color: #9f1ae2;
+    background-color: orange;
     border-radius: 30px;
     color: #fff;
     text-decoration: none;
+}
+
+.px-5 {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+/* Block Formulir */
+.formulir {
+    padding-top: 5rem;
+    background-color: #fff;
+}
+
+.formulir input {
+    border-radius: 5px;
+    border: 0;
+    background-color: #ecf0f6;
+}
+
+.formulir textarea {
+    border-radius: 5px;
+    border: 0;
+    background-color: #ecf0f6;
+}
+
+.formulir .align-items-center {
+    align-items: end !important;
+}
+
+.formulir button.btn.btn-primary.btn-block.mb-4 {
+    margin-bottom: 6rem !important;
+    width: 100%;
+    padding: 10px;
+}
+
+.formulir h2 {
+    margin-bottom: 3rem !important;
+}
+
+.formulir .container-fluid.px-5 .row {
+    background-color: #ecf0f6;
+    margin: 20px 0 !important;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.formulir .container-fluid.px-5 .row .col-md-3.mb-5,
+.formulir .container-fluid.px-5 .row .col-md-9.mb-5 {
+    margin-bottom: 0 !important;
+}
+
+.formulir .col-lg-6 .container-fluid.px-5 {
+    padding: 0 !important;
+}
+
+.formulir .form-check-input:checked {
+    background-color: #2937f0;
+    border-color: #2937f0;
+    height: 25px;
+    width: 40px;
+}
+
+
+/* STATISTIK */
+section#statistik {
+    padding-top: 2rem;
+    background-color: #eaeaea;
+}
+
+section#statistik h2 {
+    margin-bottom: 3rem !important;
+}
+
+
+/* FOOTER */
+footer.bg-black.text-center.py-5 .text-white-50.small,
+footer.bg-black.text-center.py-5 * {
+    color: #fff !important;
+}
+
+
+/* Unggah File Lampiran */
+.form-outline.mb-4 .form-control-file {
+    background-color: transparent;
 }
