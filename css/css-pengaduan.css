@@ -286,3 +286,9 @@ div#formulir .row.mb-4 select {
     border-radius: 5px;
 }
 
+
+h1.display-1.lh-1.mb-3,
+h2.display-4.text-center.lh-1.mb-4 {
+    font-family: 'Poppins', sans-serif;
+}
+
