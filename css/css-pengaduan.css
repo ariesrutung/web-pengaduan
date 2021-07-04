@@ -16,6 +16,11 @@ i.bi.bi-list {
     font-size: 30px !important;
 }
 
+/* set menu ke kanan */
+/* div#navbarResponsive {
+    display: flex !important;
+} */
+
 /* Tombol Masuk */
 button.btn.btn-primary.rounded-pill.px-3.mb-2.mb-lg-0 {
     background-color: orange;
@@ -45,53 +50,55 @@ button.btn.btn-primary.rounded-pill.px-3.mb-2.mb-lg-0 {
 }
 
 /* Block Formulir */
-.formulir {
+#formulir {
     padding-top: 5rem;
     background-color: #fff;
 }
 
-.formulir input {
+#formulir input {
+    border-radius: 5px;
+    border: 0;
+    background-color: #ecf0f6;
+    box-shadow: none !important;
+    height: 37px;
+}
+
+#formulir textarea {
     border-radius: 5px;
     border: 0;
     background-color: #ecf0f6;
 }
 
-.formulir textarea {
-    border-radius: 5px;
-    border: 0;
-    background-color: #ecf0f6;
-}
-
-.formulir .align-items-center {
+#formulir .align-items-center {
     align-items: end !important;
 }
 
-.formulir button.btn.btn-primary.btn-block.mb-4 {
+#formulir button.btn.btn-primary.btn-block.mb-4 {
     margin-bottom: 6rem !important;
     width: 100%;
     padding: 10px;
 }
 
-.formulir h2 {
+#formulir h2 {
     margin-bottom: 3rem !important;
 }
 
-.formulir .container-fluid.px-5 .row {
+#formulir .container-fluid.px-5 .row {
     background-color: #ecf0f6;
     margin: 20px 0 !important;
     border-radius: 10px;
     padding: 10px;
 }
 
-.formulir .container-fluid.px-5 .row .col-md-6.mb-5 {
+#formulir .container-fluid.px-5 .row .col-md-6.mb-5 {
     margin-bottom: 0 !important;
 }
 
-.formulir .col-lg-6 .container-fluid.px-5 {
+#formulir .col-lg-6 .container-fluid.px-5 {
     padding: 0 !important;
 }
 
-.formulir .form-check-input:checked {
+#formulir .form-check-input:checked {
     background-color: #2937f0;
     border-color: #2937f0;
     height: 25px;
@@ -99,7 +106,7 @@ button.btn.btn-primary.rounded-pill.px-3.mb-2.mb-lg-0 {
     position: relative;
 }
 
-.formulir div#newwst .text-muted {
+#formulir div#newwst .text-muted {
     color: #6c757d !important;
     line-height: 1.8;
     margin-bottom: 5px !important;
@@ -118,8 +125,13 @@ button.btn.btn-primary.rounded-pill.px-3.mb-2.mb-lg-0 {
     }
 }
 
-.formulir div#newwst .col-md-6.mb-5 button {
+#formulir div#newwst .col-md-6.mb-5 button {
     margin: 10px 0;
+}
+
+#formulir .form-check.d-flex.justify-content-center.mb-4 label.form-check-label {
+    font-size: 13px;
+    font-weight: normal;
 }
 
 
@@ -147,6 +159,10 @@ footer.bg-black.text-center.py-5 * {
     width: 100%;
 }
 
+input#form6Example9 {
+    background-color: transparent;
+}
+
 /* Bootstrap Modal */
 .modal-dialog {
     max-width: 90%;
@@ -160,13 +176,20 @@ footer.bg-black.text-center.py-5 * {
     text-align: center;
 }
 
-.employees,.customer,.design,.order {
-    margin-top: 70px;
-    margin-bottom: 70px;
+.employees,
+.customer,
+.design,
+.order {
+    margin: 20px 10px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .counter-count {
-    font-size: 18px;
+    font-size: 30px;
+    font-weight: 900;
     background-color: #00b3e7;
     border-radius: 50%;
     position: relative;
@@ -183,7 +206,21 @@ footer.bg-black.text-center.py-5 * {
 }
 
 .employee-p,.customer-p,.order-p,.design-p {
-    font-size: 24px;
+    font-size: 20px;
     color: #000000;
     line-height: 34px;
+    text-align: center;
 }
+
+div#pengaduankota .col-lg-6.col-md-6.col-sm-6.col-xs-12 p.employee-p {
+    text-align: center;
+}
+
+/* div#pengaduankota {
+    margin-top: 50px;
+} */
+
+div#pengaduankota p.counter-count {
+    background: #9f1ae2;
+}
+
