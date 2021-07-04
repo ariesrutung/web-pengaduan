@@ -1,4 +1,5 @@
-/* CSS Untuk Logo Website Header */
+/* CSS Untuk file index.html */
+/* Logo Website Header */
 a.navbar-brand img.d-inline-block.align-top {
     filter: invert(1);
     width: 120px;
@@ -25,11 +26,6 @@ a.navbar-brand img.d-inline-block.align-top {
 i.bi.bi-list {
     font-size: 30px !important;
 }
-
-/* set menu ke kanan */
-/* div#navbarResponsive {
-    display: flex !important;
-} */
 
 /* Tombol Masuk */
 button.btn.btn-primary.rounded-pill.px-3.mb-2.mb-lg-0 {
@@ -126,7 +122,7 @@ button.btn.btn-primary.rounded-pill.px-3.mb-2.mb-lg-0 {
     align-items: center;
 }
 
-#formulir div#newwst .text-muted {
+#formulir div#newest .text-muted {
     color: #6c757d !important;
     line-height: 1.8;
     margin-bottom: 5px !important;
@@ -145,7 +141,7 @@ button.btn.btn-primary.rounded-pill.px-3.mb-2.mb-lg-0 {
     }
 }
 
-#formulir div#newwst .col-md-6.mb-5 button {
+#formulir div#newest .col-md-6.mb-5 button {
     margin: 10px 0;
     background-color: orange;
     border: 0;
@@ -159,8 +155,7 @@ button.btn.btn-primary.rounded-pill.px-3.mb-2.mb-lg-0 {
     align-items: center;
 }
 
-
-/* STATISTIK */
+/* Statistik */
 section#statistik {
     padding-top: 2rem;
     background-color: #ecf0f6;
@@ -200,14 +195,13 @@ input#form6Example10 {
     height: 25px;
 }
 
-/* Bootstrap Modal */
+/* Modal */
 .modal-dialog {
     max-width: 90%;
     margin: 1.75rem auto;
 }
 
-
-/* CSS Untuk Counter */
+/* Counter */
 .counter {
     background-color: #eaecf0;
     text-align: center;
@@ -253,14 +247,9 @@ input#form6Example10 {
     text-align: center;
 }
 
-/* div#pengaduankota {
-    margin-top: 50px;
-} */
-
 p.counter-count {
     background: #9f1ae2;
 }
-
 
 /* modal/Popup */
 .modal-content {
@@ -324,7 +313,11 @@ button#dropdownMenuButton {
     box-shadow: none !important;
 }
 
-.btn-check:checked + .btn-secondary:focus, .btn-check:active + .btn-secondary:focus, .btn-secondary:active:focus, .btn-secondary.active:focus, .show > .btn-secondary.dropdown-toggle:focus {
+.btn-check:checked + .btn-secondary:focus,
+.btn-check:active + .btn-secondary:focus,
+.btn-secondary:active:focus,
+.btn-secondary.active:focus,
+.show > .btn-secondary.dropdown-toggle:focus {
     box-shadow: none !important;
 }
 
@@ -338,9 +331,9 @@ div#formulir .row.mb-4 select {
     padding: 10px !important;
 }
 
-
 h1.display-1.lh-1.mb-3,
 h2.display-4.text-center.lh-1.mb-4 {
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
 }
+/* CSS Untuk file index.html */

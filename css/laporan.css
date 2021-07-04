@@ -1,3 +1,4 @@
+/* CSS Untuk file laporan.html */
 .laporan {
     padding-top: 7rem;
 }
@@ -42,7 +43,6 @@
     font-size: 2rem;
 }
 
-
 .table-responsive i.bi.bi-check-square-fill.me-2,
 .table-responsive i.bi.bi-x-square-fill.me-2,
 .table-responsive i.bi.bi-exclamation-square-fill.me-2 {
@@ -62,3 +62,4 @@
 .table-responsive i.bi.bi-exclamation-square-fill.me-2 {
     color: blue;
 }
+/* Akhir CSS Untuk file index.html */
