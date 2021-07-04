@@ -1,0 +1,5 @@
+/* CSS Untuk Logo Website Header */
+a.navbar-brand.fw-bold img {
+    filter: invert(1);
+    width: 120px;
+}
