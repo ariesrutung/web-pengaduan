@@ -23,3 +23,11 @@ div#laporan .table thead th {
 div#laporan .table td p {
     text-align: center;
 }
+
+/* Latar header table */
+.table .thead-dark th {
+    color: #000;
+    background-color: #ecf0f6 !important;
+    border: orange !important;
+    box-shadow: none !important;
+}
