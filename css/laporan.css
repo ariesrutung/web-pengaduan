@@ -1,12 +1,12 @@
 /* Mengatur Gambar  */
-div#laporan tbody img {
+.table-responsive tbody img {
     width: 100%;
     border-radius: 5px;
 }
 
 /* Isi tabel */
-div#laporan .table td,
-div#laporan .table th {
+.table-responsive .table td,
+.table-responsive .table th {
     padding: .75rem;
     vertical-align: middle;
     border-top: 1px solid #dee2e6;
@@ -14,18 +14,18 @@ div#laporan .table th {
 }
 
 /* Judul tabel */
-div#laporan .table thead th {
+.table-responsive .table thead th {
     vertical-align: middle;
     border-bottom: 2px solid #dee2e6;
 }
 
 /* paragraf */
-div#laporan .table td p {
+.table-responsive .table td p {
     text-align: center;
 }
 
 /* Latar header table */
-.table .thead-dark th {
+.table-responsive .table .thead-dark th {
     color: #000;
     background-color: #ecf0f6 !important;
     border: orange !important;
