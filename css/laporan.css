@@ -5,8 +5,8 @@ div#laporan tbody img {
 }
 
 /* Isi tabel */
-.table td,
-.table th {
+div#laporan .table td,
+div#laporan .table th {
     padding: .75rem;
     vertical-align: middle;
     border-top: 1px solid #dee2e6;
@@ -14,7 +14,12 @@ div#laporan tbody img {
 }
 
 /* Judul tabel */
-.table thead th {
+div#laporan .table thead th {
     vertical-align: middle;
     border-bottom: 2px solid #dee2e6;
+}
+
+/* paragraf */
+div#laporan .table td p {
+    text-align: center;
 }
