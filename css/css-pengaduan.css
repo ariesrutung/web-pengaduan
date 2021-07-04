@@ -83,8 +83,7 @@ button.btn.btn-primary.rounded-pill.px-3.mb-2.mb-lg-0 {
     padding: 10px;
 }
 
-.formulir .container-fluid.px-5 .row .col-md-3.mb-5,
-.formulir .container-fluid.px-5 .row .col-md-9.mb-5 {
+.formulir .container-fluid.px-5 .row .col-md-6.mb-5 {
     margin-bottom: 0 !important;
 }
 
@@ -97,6 +96,30 @@ button.btn.btn-primary.rounded-pill.px-3.mb-2.mb-lg-0 {
     border-color: #2937f0;
     height: 25px;
     width: 40px;
+    position: relative;
+}
+
+.formulir div#newwst .text-muted {
+    color: #6c757d !important;
+    line-height: 1.8;
+    margin-bottom: 5px !important;
+}
+
+.col-md-6.mb-5 img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .col-md-6.mb-5 img {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 10px !important;
+    }
+}
+
+.formulir div#newwst .col-md-6.mb-5 button {
+    margin: 10px 0;
 }
 
 
@@ -121,4 +144,46 @@ footer.bg-black.text-center.py-5 * {
 /* Unggah File Lampiran */
 .form-outline.mb-4 .form-control-file {
     background-color: transparent;
+    width: 100%;
+}
+
+/* Bootstrap Modal */
+.modal-dialog {
+    max-width: 90%;
+    margin: 1.75rem auto;
+}
+
+
+/* CSS Untuk Counter */
+.counter {
+    background-color: #eaecf0;
+    text-align: center;
+}
+
+.employees,.customer,.design,.order {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.counter-count {
+    font-size: 18px;
+    background-color: #00b3e7;
+    border-radius: 50%;
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    line-height: 92px;
+    width: 92px;
+    height: 92px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: inline-block;
+}
+
+.employee-p,.customer-p,.order-p,.design-p {
+    font-size: 24px;
+    color: #000000;
+    line-height: 34px;
 }
