@@ -1,21 +1,49 @@
 /* CSS Untuk file index.html */
 /* Logo Website Header */
 a.navbar-brand img.d-inline-block.align-top {
-    filter: invert(1);
-    width: 120px;
+    /* filter: invert(1); */
+    width: 150px;
+    height: auto;
 }
 
 .masthead {
-    background-color: #f8f9fa;
+    background-color: #ecf0f6;
     padding-top: 8rem;
     padding-bottom: 5rem;
-    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/06/bg_1.png);
-    background-position: top left;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/07/header_1.png);
+    background-position: center center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
+.masthead h1.display-1.lh-1.mb-3 {
+    color: #fff;
+}
+
+header#header p.lead.fw-normal.text-muted.mb-5 {
+    color: #fff !important;
+}
+
+header#header a.me-lg-3.mb-4.mb-lg-0 {
+    padding: 20px 40px;
+    background-color: #4530ed;
+    font-size: 18px !important;
+    border: 0 !important;
+    border-radius: 50px !important;
+}
+
+
 /* Icon Menu di topbar */
+#mainNav {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #fff;
+    background-image: url(https://justapp.id/assets/images/css-26.svg),linear-gradient(163deg,#cd0c43,#cd0c43 49%,#cd0c43);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 #mainNav .navbar-toggler {
     font-size: 0.875rem;
     padding: 10px;
@@ -26,6 +54,7 @@ a.navbar-brand img.d-inline-block.align-top {
 i.bi.bi-list {
     font-size: 30px !important;
 }
+
 
 /* Tombol Masuk */
 button.btn.btn-primary.rounded-pill.px-3.mb-2.mb-lg-0 {
@@ -159,7 +188,7 @@ button.btn.btn-primary.rounded-pill.px-3.mb-2.mb-lg-0 {
 section#statistik {
     padding-top: 2rem;
     background-color: #ecf0f6;
-    border-radius: 30px;
+    border-radius: 0;
     background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/06/login_bottom.png);
     background-position: bottom right;
     background-repeat: no-repeat;
@@ -247,10 +276,12 @@ input#form6Example10 {
     text-align: center;
 }
 
-p.counter-count {
-    background: #9f1ae2;
+section#statistik p.counter-count {
+    background-color: #4530ed;
+    width: 200px;
+    height: 200px;
+    font-size: 86px;
 }
-
 /* modal/Popup */
 .modal-content {
     position: relative;
