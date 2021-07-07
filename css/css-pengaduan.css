@@ -1,8 +1,12 @@
 /* CSS Untuk file index.html */
 /* Logo Website Header */
+/* Icon Menu di topbar */
+
+/* CSS Untuk file index.html */
+/* Logo Website Header */
 a.navbar-brand img.d-inline-block.align-top {
     /* filter: invert(1); */
-    width: 150px;
+    width: 170px;
     height: auto;
 }
 
@@ -11,27 +15,10 @@ a.navbar-brand img.d-inline-block.align-top {
     padding-top: 8rem;
     padding-bottom: 5rem;
     background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/07/header_1.png);
-    background-position: center center;
+    background-position: center bottom !important;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-.masthead h1.display-1.lh-1.mb-3 {
-    color: #fff;
-}
-
-header#header p.lead.fw-normal.text-muted.mb-5 {
-    color: #fff !important;
-}
-
-header#header a.me-lg-3.mb-4.mb-lg-0 {
-    padding: 20px 40px;
-    background-color: #4530ed;
-    font-size: 18px !important;
-    border: 0 !important;
-    border-radius: 50px !important;
-}
-
 
 /* Icon Menu di topbar */
 #mainNav {
@@ -44,6 +31,37 @@ header#header a.me-lg-3.mb-4.mb-lg-0 {
     background-repeat: no-repeat;
 }
 
+#mainNav .navbar-nav .nav-item .nav-link.active {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+header#header h1.display-1.lh-1.mb-3,
+header#header h2.display-4.text-center.lh-1.mb-4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    color: #fff;
+}
+
+.masthead .text-muted {
+    color: #ffffff !important;
+    margin-bottom: 10px !important;
+}
+
+header#header a.me-lg-3.mb-4.mb-lg-0:last-child {
+    padding: 20px 40px;
+    background-color: #4e2eeb !important;
+    border-radius: 50px;
+    color: #fff;
+    text-decoration: none;
+    /* border: 3px solid #fff; */
+}
+
+#mainNav button.btn.btn-primary.rounded-pill.px-3.mb-2.mb-lg-0 {
+    background-color: #4e2eeb !important;
+    border: 0;
+}
+
 #mainNav .navbar-toggler {
     font-size: 0.875rem;
     padding: 10px;
@@ -54,7 +72,6 @@ header#header a.me-lg-3.mb-4.mb-lg-0 {
 i.bi.bi-list {
     font-size: 30px !important;
 }
-
 
 /* Tombol Masuk */
 button.btn.btn-primary.rounded-pill.px-3.mb-2.mb-lg-0 {
@@ -117,7 +134,7 @@ button.btn.btn-primary.rounded-pill.px-3.mb-2.mb-lg-0 {
     margin-bottom: 6rem !important;
     width: 100%;
     padding: 10px;
-    background-color: orange;
+    background-color: #4e2eeb;
     border: 0;
 }
 
@@ -188,11 +205,11 @@ button.btn.btn-primary.rounded-pill.px-3.mb-2.mb-lg-0 {
 section#statistik {
     padding-top: 2rem;
     background-color: #ecf0f6;
-    border-radius: 0;
-    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/06/login_bottom.png);
+    /* background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/06/login_bottom.png);
     background-position: bottom right;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: contain; */
+    padding-bottom: 200px;
 }
 
 section#statistik h2 {
@@ -204,6 +221,10 @@ section#statistik h2 {
 footer.bg-black.text-center.py-5 .text-white-50.small,
 footer.bg-black.text-center.py-5 * {
     color: #fff !important;
+}
+
+footer.bg-black {
+    margin-top: 4rem;
 }
 
 
@@ -248,24 +269,24 @@ input#form6Example10 {
 }
 
 .counter-count {
-    font-size: 55px;
+    font-size: 70px;
     font-weight: 900;
     position: relative;
     color: #ffffff;
     text-align: center;
     line-height: 92px;
-    width: 150px;
-    height: 150px;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.employee-p,.customer-p,.order-p,.design-p {
+.employee-p,
+.customer-p,
+.order-p,
+.design-p {
     font-size: 20px;
     color: #000000;
     line-height: 34px;
@@ -276,12 +297,10 @@ input#form6Example10 {
     text-align: center;
 }
 
-section#statistik p.counter-count {
-    background-color: #4530ed;
-    width: 200px;
-    height: 200px;
-    font-size: 86px;
+p.counter-count {
+    background: #4e2eeb;
 }
+
 /* modal/Popup */
 .modal-content {
     position: relative;
@@ -368,3 +387,45 @@ h2.display-4.text-center.lh-1.mb-4 {
     font-weight: 900;
 }
 /* CSS Untuk file index.html */
+
+div#formulir .container.px-5 {
+    background-color: #fff;
+    padding: 20px !important;
+    box-shadow: 0 10px 30px 0 rgb(0 0 0 / 20%);
+    margin-bottom: 30px;
+    margin-top: -240px;
+}
+
+div#laporan img {
+    vertical-align: middle !important;
+    width: 100% !important;
+    margin-top: 2rem !important;
+    border-radius: 10px !important;
+}
+
+div#laporan .btn-primary {
+    color: #fff;
+    background-color: #2937f0;
+    border-color: #2937f0;
+    margin-top: 20px;
+}
+
+
+@media (max-width: 768px) {
+#img {
+    display: none;
+}
+}
+
+@media (min-width: 768px) {
+div#formulir .container.px-5 {
+    width: 60% !important;
+    margin-left: 20% !important;
+    padding: 60px !important;
+}
+}
+
+/* Blok Laporan */
+div#laporan {
+    padding-top: 50px;
+}
