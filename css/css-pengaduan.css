@@ -475,3 +475,26 @@ div#laporan {
     height: 45px !important;
     padding: 0 10px !important;
 }
+
+
+/* Modal Login */
+@media (min-width: 768px) {
+div#feedbackModal {
+    background-color: #fff !important;
+    background-color: #ecf0f6;
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/07/header_1.png);
+    background-position: center top !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100% !important;
+    height: 100% !important;
+    overflow: hidden !important;
+    box-shadow: 0 10px 30px 0 rgb(0 0 0 / 20%);
+}
+
+div#feedbackModal .modal-content {
+    box-shadow: 0 10px 30px 0 rgb(0 0 0 / 20%);
+}
+}
