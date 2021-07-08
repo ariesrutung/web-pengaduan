@@ -36,6 +36,9 @@ a.navbar-brand img.d-inline-block.align-top {
     font-weight: bold;
 }
 
+nav#mainNav {
+    width: 100vw;
+}
 header#header h1.display-1.lh-1.mb-3,
 header#header h2.display-4.text-center.lh-1.mb-4 {
     font-family: 'Poppins', sans-serif;
@@ -497,4 +500,23 @@ div#feedbackModal {
 div#feedbackModal .modal-content {
     box-shadow: 0 10px 30px 0 rgb(0 0 0 / 20%);
 }
+}
+
+
+/* Icon menu header */
+#mainNav .navbar-toggler {
+    font-size: 0.875rem;
+    padding: 0.75rem 1rem;
+    color: #ffffff;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.navbar-toggler:hover {
+    text-decoration: none;
+    border: 0 !important;
 }
