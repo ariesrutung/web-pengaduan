@@ -401,6 +401,8 @@ div#laporan img {
     width: 100% !important;
     margin-top: 2rem !important;
     border-radius: 10px !important;
+    height: 150px;
+    object-fit: cover;
 }
 
 div#laporan .btn-primary {
